@@ -19,7 +19,7 @@
 html {
   font-family: "Bad Script", cursive;
   width: 100%;
-   font-size: 20px;
+  font-size: 20px;
   min-height: 100%;
 }
 
@@ -34,28 +34,35 @@ html {
   letter-spacing: 1px;
   font-size: 1rem;
   box-shadow:  ;
+  
 }
 
 .navbar-item.is-active{
-  border-bottom: 1px solid #996E6D;
+  border-bottom: 1px solid #748567;
 }
 
 .a.navbar-item{
-  font-color: #996E6D;
+  color: #748567;
+  
 }
 
 
 .hero {
-  background-image: url(https://picsum.photos/id/25/1920/1080);
-  background: linear-gradient(rgba(153, 110, 109, 0.65), rgba(153, 110, 109, 0.65)), rgba(0, 0, 0, 0.55) url("https://picsum.photos/id/381/1920/1080") no-repeat;
+  background-image: url(../image/bgg.jpg);
+  background: linear-gradient(rgba(116, 133, 103, 0.85), rgba(116, 133, 103, 0.65)), rgba(0, 0, 0, 0.55) url(../image/bgg.jpg) no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  color: white;
+  background-size: 100%;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family:  "Bad Script", cursive;
+  
 }
 
-
+@media screen and (min-width: 769px), print {
+    .hero.is-large .hero-body {
+        padding-bottom: 5rem;
+        padding-top: 5rem;
+    }
+}
 /* ИМЕНА */
 .hero .title {
   font-family:  "Great Vibes", cursive;
@@ -75,7 +82,6 @@ html {
 .hero .tempatwaktu {
   padding-top: 35px;
   font-size: 1.5rem;
-  
 }
 
 .hero .hero-foot {
@@ -111,17 +117,17 @@ html {
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li.is-active a {
-  border-bottom: 2px solid #996E6D;
+  border-bottom: 2px solid #748567;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a {
-  color: #996E6D;
+  color: #748567;
 }
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop ul li a:hover {
-  color: #996E6D;
+  color: #748567;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid #c28285;
+  border-bottom: 2px solid #91a77c;
 }
 
 
@@ -135,17 +141,17 @@ html {
 
 .main-content {
   padding-top: 2rem;
-  color: #000; 
+  color: #748567; 
   font-family: "Bad Script", cursive;
 }
 
 .main-content .section-dark {
-  background-color: #F4E2E2;
+  background-color: #fbf7f2;
   padding: 80px 40px;
 }
 
 .main-content .section-darker {
-  background-color: #EDD2D1;
+  background-color: #f7f1e9;
   padding: 80px 40px;
 }
 
@@ -166,9 +172,9 @@ html {
 }
 /* НИЧЕГО */
 .main-content .section-dark.resume button {
-  border: 2px solid #996E6D;
+  border: 2px solid #748567;
   background: white;
-  color: #996E6D;
+  color: #748567;
   height: 50px;
   width: 250px;
   font-size: 1rem;
@@ -176,17 +182,14 @@ html {
 }
 
 .main-content .section-dark.resume .fa-download {
-  color: #996E6D;
+  color: #748567;
 }
 
 .main-content .section-dark.my-work {
   padding: 80px 40px;
 }
 
-.main-content .section-cashbac {
-  background-color: rgb(238, 250, 253);
-  padding: 80px 40px; 
-}
+
 
 @media (max-width: 599px) {
   .main-content .section-dark.foto-foto {
@@ -286,7 +289,7 @@ html {
 
 .main-content .section-color.pertanyaan {
   padding: 100px;
-  background-color: #996E6D;
+  background-color: #748567;
   color: white;
 }
 
@@ -303,7 +306,7 @@ html {
 .main-content .section-title {
   font-family: "Bad Script", cursive;
   font-weight: 900;
-  color: #996E6D;
+  color: #748567;
   text-transform: uppercase;
   font-size: 2.3rem;
   letter-spacing: 0px;
@@ -312,7 +315,7 @@ html {
 /*NAMES*/
 .nama-lengkap {
   font-family: "Pacifico", cursive;
-  color: #996E6D;
+  color: #748567;
   font-size: 5.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -322,7 +325,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
+color: #748567;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -335,6 +338,7 @@ vertical-align: middle;
 .waktu {
   font-size: 1.4rem;
   font-family: 'Bad Script', cursive;
+  color: #748567;
 }
 /*30*/
 .tanggal-angka {
@@ -347,7 +351,7 @@ vertical-align: middle;
 .tempat {
   font-size: 2rem;
   font-family: "Bad Script", cursive;
-  font-size: ;
+  color: #748567;
   margin-bottom: 50px;
 }
 
@@ -363,7 +367,7 @@ vertical-align: middle;
   line-height: 25px;
   text-align: center;
   vertical-align: middle;
-  background: #c28285;
+  background: #91a77c;
   color: whitesmoke;    
 }
 
@@ -391,9 +395,6 @@ vertical-align: middle;
   color: whitesmoke;
 }
 
-.fa-download {
-  color: #43485c;
-}
 
 .divider {
   margin: 40px 25px;
@@ -419,7 +420,7 @@ vertical-align: middle;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #996E6D;
+  background-color: #748567;
   color: white;
   cursor: pointer;
   border-radius: 50%;
@@ -432,18 +433,18 @@ vertical-align: middle;
 }
 
 #toTop:hover {
-  background-color: #BC8887;
+  background-color: #8fa480;
 }
 
 ::-webkit-scrollbar {
   width: 8px;
-  background-color: #F4E2E2;
+  background-color: #fbf7f2;
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: inset 0 0 6px #996E6D;
-  -webkit-box-shadow: inset 0 0 6px #996E6D;
-  background-color: #BC8887;
+  box-shadow: inset 0 0 6px #748567;
+  -webkit-box-shadow: inset 0 0 6px #748567;
+  background-color: #8fa480;
 }
 
 body.preloader-site {
@@ -453,7 +454,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #D8A9A8;
+  background: #abbd9d;
   position: fixed;
   top: 0;
   left: 0;
@@ -471,10 +472,10 @@ body.preloader-site {
 
 .btn-cta:hover {
   color:white;
-  background-color: #bf7877;
+  background-color: #88a473;
   font-size: 1.2rem;
   border-radius: 10px;
-  border: 2px solid #bf7877;
+  border: 2px solid #88a473;
   width:  210px;
   height: 65px;
   align-items: center;
@@ -482,12 +483,12 @@ body.preloader-site {
 }
 
 .btn-cta {
-  background-color: #996E6D;
+  background-color: #748567;
   width:  210px;
   height: 65px;
   color: white;
   font-size: 1.2rem;
-  border: 2px solid #996E6D;
+  border: 2px solid #748567;
   border-radius: 10px;
   align-items: center;
   margin: 1rem;
@@ -511,18 +512,6 @@ body.preloader-site {
   padding: 15px;
 }
 
-.btn-voucher-code {
-  height: 55px;
-  min-width: 100px;
-  border: 2px solid #26ade4;
-  background-color: #26ade4;
-  border-radius: 0 10px 10px 0;
-  font-size: 20px;
-  padding: 0;
-  margin: 0;
-  vertical-align: middle;
-  color: white;
-}
 
 .fa-copy {
   margin-right: 5px;
@@ -531,11 +520,11 @@ body.preloader-site {
 {color:ghostwhite}
 
 
-.dusty-pink {color: #D8A9A8}
-.dusty-pink-lighter {color: #EDD2D1}
-.dusty-pink-lightest {color: #F4E2E2}
-.dusty-pink-darker {color: #BC8887}
-.dusty-pink-darkest {color: #996E6D}
+.dusty-pink {color: #abbd9d}
+.dusty-pink-lighter {color: #f7f1e9}
+.dusty-pink-lightest {color: #fbf7f2}
+.dusty-pink-darker {color: #8fa480}
+.dusty-pink-darkest {color: #748567}
 
 .tile {
   border-radius: 10px;
@@ -620,3 +609,8 @@ body.preloader-site {
   background-size: initial;
 }
 
+strong {
+  
+  color: #48573d;          /* меняет цвет текста */
+  font-size: 2.5rem;     /* увеличивает размер шрифта */
+}
