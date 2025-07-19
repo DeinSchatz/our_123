@@ -144,15 +144,15 @@ html {
   color: #748567; 
   font-family: "Bad Script", cursive;
 }
-
+/*photo*/
 .main-content .section-dark {
   background-color: #fbf7f2;
-  padding: 80px 40px;
+  padding: 40px 40px;
 }
 
 .main-content .section-darker {
   background-color: #f7f1e9;
-  padding: 80px 40px;
+  padding: 40px 40px;
 }
 
 .main-content .section-dark.resume {
@@ -186,7 +186,7 @@ html {
 }
 
 .main-content .section-dark.my-work {
-  padding: 80px 40px;
+  padding: 40px 40px;
 }
 
 
@@ -195,6 +195,12 @@ html {
   .main-content .section-dark.foto-foto {
     padding: 75px 20px;
   }
+}
+
+.main-content .section-dark.contact {
+  font-size: 1.7rem;
+  font-family: "Bad Script", cursive;
+  
 }
 
 .main-content .section-dark.foto-foto .foto-item {
@@ -219,13 +225,13 @@ html {
 }
 
 .main-content .section-light {
-  padding: 80px 40px;
+  padding: 40px 40px;
   font-size: 2rem;
   font-family: "Bad Script", cursive;
 }
 
 .main-content .section-light.regular-section {
-  padding-bottom: 80px;
+  padding-bottom: 160px;
   
 }
 
@@ -310,7 +316,7 @@ html {
   text-transform: uppercase;
   font-size: 2.3rem;
   letter-spacing: 0px;
-  padding-bottom: 60px;
+  padding: 10px;
 }
 /*NAMES*/
 .nama-lengkap {
@@ -531,55 +537,10 @@ body.preloader-site {
 }
 
 
-.foto1 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-kang-emil.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
 
+.image.is-2by1 {
+padding-top: 100%;}
 
-.foto2 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-cashbac.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto3 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-selfie.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto4 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-lamaran.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-.foto5 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-red-car.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
-
-
-.foto6 {
-  background-image: linear-gradient(rgba(95, 2, 2, 0.5), rgba(48, 47, 47, 0.9)), url("../image/sherly-daeng-engagement-ami.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat:no-repeat;
-  min-height: 24rem;
-}
 
 
 
